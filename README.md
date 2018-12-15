@@ -1,3 +1,55 @@
+Step 1. Start with the data used for the ANN problem (Node Flooding) from Homework #1.  This data is provided in the
+	homework submission packet.
+
+Step 2. Run the Python code provided in the code file for Homework #2.  This will create an output .csv file to be used
+	within ABAGAIL for the purpose of leveraging randomized optimization algorithms to determine ANN weights.
+
+Step 3. Move the output .csv file over to the appropriate directory in ABAGAIL.  Rename the file as "flood.csv".
+
+Step 4. Update the "NeurNetTest.java" code provided in the code file appropriately so as to obtain the desired number of
+	hidden layers and iterations.  Save the updated "NeurNetTest.java" file.
+
+Step 5. Compile the updated "NeurNetTest.jave" file using Apache Ant.  Navigate the command prompt to the ABAGAIL directory
+	containing the "build.xml" file and type "ant" at the command prompt and hit return.
+
+Step 6. Run the "NeurNet.java" code by typing "java -cp ABAGAIL.jar opt.test.NeurNetTest" at the command prompt
+	and hitting return.  Output provides predictive accuracies for each of RHC, SA, and GA algorithms.
+
+Step 7. Repeat steps 4-6 as many times as desired using different hidden layers and iterations.  Capture results.
+
+Step 8. For the Four Peaks problem:
+	a. Update the "FourPeaksTest1.java" code provided in the code file appropriately so as to obtain the
+		desired number of bit sizes (N) and iterations.  Save the updated "FourPeaksTest1.java" file.
+	b. Compile the updated "FourPeaksTest1.jave" file using Apache Ant.  Navigate the command prompt to the
+		ABAGAIL directory containing the "build.xml" file and type "ant" at the command prompt and hit return.
+	c. Run the "FourPeaksTest1.java" code by typing "java -cp ABAGAIL.jar opt.test.FourPeaksTest1" at the
+		command prompt and hitting return.  Output provides model performance for each of RHC, SA, GA, and MIMIC
+		algorithms.  Looking to maximize model performance.
+	d. Repeat steps a-c as many times as desired using different bit sizes (N) and iterations.  Capture results.
+
+Step 9. For the Traveling Salesman problem:
+	a. Update the "TravelingSalesmanTest1.java" code provided in the code file appropriately so as to obtain the
+		desired number of cities (N) and iterations.  Save the updated "TravelingSalesmanTest1.java" file.
+	b. Compile the updated "TravelingSalesmanTest1.jave" file using Apache Ant.  Navigate the command prompt to the
+		ABAGAIL directory containing the "build.xml" file and type "ant" at the command prompt and hit return.
+	c. Run the "TravelingSalesmanTest1.java" code by typing "java -cp ABAGAIL.jar opt.test.TravelingSalesmanTest1"
+		at the command prompt and hitting return.  Output provides model performance for each of RHC, SA, GA,
+		and MIMIC algorithms.  Looking to maximize model performance.
+	d. Repeat steps a-c as many times as desired using different number of cities (N) and iterations.  Capture results.
+
+Step 10. For the N Queens problem:
+	a. Update the "NQueensTest1.java" code provided in the code file appropriately so as to obtain the desired
+		number of Queens/board sizes (N) and iterations.  Save the updated "NQueensTest1.java" file.
+	b. Compile the updated "NQueensTest1.jave" file using Apache Ant.  Navigate the command prompt to the ABAGAIL
+		directory containing the "build.xml" file and type "ant" at the command prompt and hit return.
+	c. Run the "NQueensTest1.java" code by typing "java -cp ABAGAIL.jar opt.test.NQueensTest1" at the command prompt
+		and hitting return.  Output provides model performance for each of RHC, SA, GA, and MIMIC algorithms.
+		Looking to maximize model performance.
+	d. Repeat steps a-c as many times as desired using different number of Queens/board sizes (N) and iterations.
+		Capture results.
+
+The remaining material found below existed originally with the ABAGAIL repository that was cloned.
+
 ABAGAIL
 =======
 
